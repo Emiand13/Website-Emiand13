@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Emiand13</title>
+   <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="/styles.css" />
+   <script src="https://cdn.jsdelivr.net/npm/@openai/api@0.27.0"></script>
+
+
+
+</head>
+<body>
+
+<!-- ==================SUPERSPLASH=============== -->
+    <!-- <div class="supersplash">
+        <div class="circle13"></div>
+        <div class="outer-circle"></div>
+        <div class="inner-circle"></div>
+        <div class="box box-top-left"></div>
+        <div class="box box-bottom-left"></div>
+        <div class="box box-bottom-right"></div>
+        <div class="box box-top-right"></div>
+     </div>   -->
+
+<!-- ============================================ -->
+
+
+
+<!-- =========================NAV y MENU TOGGLE============================================= -->
+<section class="top-nav">
+    <div>
+       <img class="move-logo" src="./images/icons8-anonymous-mask-64.png" alt="Emiand-logo" />
+    </div>
+<input id="menu-toggle" type="checkbox" />
+<label class="menu-button-container" for="menu-toggle">
+   <div class="menu-button"></div>
+</label>
+<ul class="menu">
+   <li>
+      <a href="index.html#projects" class="headline-light">
+        Projects</a>
+   </li>
+   <li>
+      <a href="index.html#biografy" class="headline-light">
+         Biografy</a>
+   </li>
+   <li>
+      <a href="index.html#services" class="headline-light">
+         Services</a>
+   </li>
+   <li>
+      <a href="mailto:blim_27@outlook.es?subject=Let's Talk">Contact Me</a>
+   </li>
+</ul>
+</div>
+</section>
+<!-- ==================================================================================================== -->
+<section class="flex">   
+<div>
+<h1 class="emiand13">I AM EMIAND</h1>
+<p class="developer">Web Developer </p>
+</div>
+
+
+<!-- =====================TARJETA FLIP EMIAND ===================================== -->
+
+
+<div id="biografy" class="container flex">
+   <div class="wrap">
+      <div class="tarjeta-wrap">
+         <div class="tarjeta">
+            <div class="adelante" id="emi-img">
+               <img class="card-image" src="https://i.pinimg.com/736x/14/eb/58/14eb5872befec6e02f164eaa9f5e8414.jpg" alt="IMAGEN EMILIO CARRASCO">
+            </div>
+            <div class="atras">
+               <h2 id="emi-city"></h2>
+               <p id="emi-hobbies"></p>
+               <p class="bio" id="emi-bio"></p>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+</section>
+
+
+<!-- ========================================================================= -->
+
+       <h3 id="projects" class="projects-titulo">Proyectos</h3>
+<section class="projects-services">
+  
+     <div class="container-projects">
+         <main class="projects-img">
+            <img src="./images/circle.svg" alt="Circle Landing Agency" />
+         </main>
+
+         <h5>Circle Landing Agency</h5>
+         <p>
+            Circle always focuses on delivering the best user experience to
+            your customers.
+         </p>
+
+         <a href="https://midterm-project-boiler-emiand-13.vercel.app/"> Learn more </a>
+      </div>
+
+<!-- ================================================================== -->
+
+       <div class="container-projects">
+         <main class="projects-img2">
+            <img src="./images/icons8-anonymous-mask-64.png" alt="I AM EMIAND" />
+         </main>
+
+         <h5>Website Emiand13</h5>
+         <p>
+            Emiand always focus on providing the best user experience to your clients.
+         </p>
+
+         <a href="https://midterm-project-boiler-emiand-13.vercel.app/"> Learn more</a>
+      </div>
+
+<!-- =============================================================== -->
+
+       <div class="container-projects">
+         <main class="projects-img3">
+            <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png" alt="ironhack-skydive-logo"/>
+         </main>
+
+         <h5>IronSkydive</h5>
+         <p>
+            Welcome to Ironskydive, the best adventure you will ever have.
+         </p>
+
+         <a href="./iroskydive.html"> Learn more</a>
+      </div>
+</section>
+
+<!-- ================================================================= -->
+<section>
+   <h1 id="studies" class="studies">Estudios</h1>
+   <img class="logo-ironhack-blue" src="./images/logo-ironhack-blue.png">
+   <p class="studies2"> Desarrollo web FRONT-END en IRONHACK, <br>conocimiento de lenguajes como<br> Html5, Css3, JavaScript y Vue.js.
+   </p>
+</section>
+
+
+<div>
+   <h1 id="services" class="services">Servicios</h1>
+
+   <section class="projects-services">
+      <div class="container-projects">
+         <main class="projects-img2">
+            <img src="./images/icons8-anonymous-mask-64.png" alt="User Interface Design" />
+         </main>
+
+         <h5>Diseño de interfaz de usuario</h5>
+         <p>
+            Emiand le proporciona un impresionante diseño de interfaz de usuario que es
+             accesible para todos.
+         </p>
+
+         <a href=""> Aprende más</a>
+      </div>
+
+      <div class="container-projects">
+         <main class="projects-img2">
+            <img src="./images/icons8-anonymous-mask-64.png" alt="User Interface Design" />
+         </main>
+
+         <h5>Diseño de experiencia de usuario</h5>
+         <p >
+            Emiand siempre se enfoca en brindar la mejor experiencia de usuario a
+            sus clientes.
+         </p>
+
+         <a href=""> Aprende más</a>
+      </div>
+
+      <div class="container-projects">
+         <main class="projects-img2">
+            <img src="./images/icons8-anonymous-mask-64.png" alt="User Interface Design" />
+         </main>
+
+         <h5>Desarrollo de aplicaciones</h5>
+         <p >
+            Desarrollamos aplicaciones móviles y web de alta calidad utilizando la
+            pila de última tecnología.
+         </p>
+
+         <a href=""> Aprende más</a>
+      </div>
+   </div>
+<h3 id="compromiso" class="compromiso">Compromiso</h3>
+   
+
+
+
+
+
+
+
+
+
+
+   
+
+   <div id="chat-container"></div>
+<form id="chat-form">
+   <input type="text" id="user-input" placeholder="Preguntame aqui.." required>
+   <button type="submit">Enviar</button>
+ </form>
+ 
+ <div id="chat-messages"></div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="emilioGPT.js"></script>
+   <script src="./emi.js"></script>
+   <script src="./animacionEmiand.js"></script>
+    <script src="./supersplash.js"></script>
+</body>
+</html>
