@@ -1087,8 +1087,6 @@ align-items: center;
 
 
 
-
-
 /* ============EMILIO GPT============================= */
 #chat-container {
   background-color: #ffffff;
@@ -1126,3 +1124,29 @@ align-items: center;
 #chat-messages {
   margin-top: 50px;
 }
+
+.preguntame{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(198, 0, 165);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+   
+    text-shadow:
+  -1px -1px 0 rgb(255, 255, 255),
+  1px -1px 0 rgb(255, 255, 255),
+  -1px 1px 0 rgb(255, 255, 255),
+  1px 1px 0 rgb(255, 255, 255);
+
+
+}
+
+/* ===================================== */
+
+
