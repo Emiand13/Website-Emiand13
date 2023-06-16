@@ -1,8 +1,8 @@
-// // SuperSplash page
-// const supersplash = document.querySelector(".supersplash");
+// SuperSplash page
+ const supersplash = document.querySelector(".supersplash");
 
-// document.addEventListener("DOMContentLoaded", (e) => {
-//    setTimeout(() => {
-//     supersplash.classList.add("display-none");
-//    }, 2000);
-//  });
+ document.addEventListener("DOMContentLoaded", (e) => {
+   setTimeout(() => {
+     supersplash.classList.add("display-none");
+    }, 1500);
+  });

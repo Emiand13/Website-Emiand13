@@ -884,8 +884,15 @@ align-items: center;
 width: 150px;
 height: 150px;
 margin:auto;
-
+transition: transform 0.3s;
 }
+
+.logo-ironhack-blue:hover {
+  transform: scale(1.5);
+}
+
+
+
 
 .services{
   margin-top: 150px;
@@ -960,7 +967,7 @@ margin:auto;
 /* =================================================================================================================== */
 .compromiso{
   text-align: center;
-  font-size: 100px;
+  font-size: 80px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color:rgb(164, 237, 255);
   
